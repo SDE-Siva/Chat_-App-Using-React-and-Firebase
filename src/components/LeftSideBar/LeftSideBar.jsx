@@ -1,9 +1,30 @@
 import React from 'react'
-import LeftSideBar from '../LeftSideBar/LeftSideBar.css'
+import './LeftSideBar.css'
+import assets from '../../assets/assets'
 
 const LeftSideBar = () => {
   return (
-    <div>LeftSideBar</div>
+    <div className="ls">
+      <div className="ls-top">
+        <div className="ls-nav">
+          <img src={assets.logo} className='logo' alt="" />
+          <div className="menu">
+            <img src={assets.menu_icon} alt="" />
+          </div>
+        </div>
+        <div className="ls-search">
+          <img src={assets.search_icon} alt="" />
+          <input type="text" placeholder='Search here ' />
+        </div>
+        <div className="friends">
+          <img src={assets.profile_img} alt="" />
+          <div>
+            <p>Richart Parker</p>
+            <span>Hello, How are you?</span>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 

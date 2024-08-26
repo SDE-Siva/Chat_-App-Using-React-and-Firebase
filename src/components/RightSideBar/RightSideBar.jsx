@@ -1,9 +1,9 @@
 import React from 'react'
-import RightSideBar from '../RightSideBar/RightSideBar.css'
+import './RightSideBar.css'
 
 const RightSideBar = () => {
   return (
-    <div>RightSideBar</div>
+    <div></div>
   )
 }
 
