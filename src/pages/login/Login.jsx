@@ -18,7 +18,7 @@ const Login = () => {
             <div className="login-term">
                 <input type="checkbox" />
                 <p>Agree to the terms of a use & privacy policy.</p>
-            </div>f
+            </div>
             <div className="login-forgot">
               {currState === "Sign Up" ? <p className="login-toggle">Already have an account <span onClick={() => setCurrState("Login")}>Login here</span></p> : <p className="login-toggle">Create a account <span onClick={() => setCurrState("Sign Up")}>click here</span></p>} 
             </div>
