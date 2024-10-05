@@ -12,6 +12,33 @@ const ChatBox = () => {
         </p>
         <img src={assets.help_icon} className="help" alt="" />
       </div>
+
+      <div className="chat-msg">
+        <div className="s-msg">
+          <p className="msg">
+            Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet.
+          </p>
+          <div>
+            <img src={assets.profile_img} alt="" />
+            <p>2:30 AM</p>
+          </div>
+        </div>
+        <div className="s-msg">
+          <img className="msg-img" src={assets.pic1} alt="" />
+          <div>
+            <img src={assets.profile_img} alt="" />
+            <p>2:30 AM</p>
+          </div>
+        </div>
+        <div className="r-msg">
+          <p className="msg">Lorem ipsum lorem5 dolor sit </p>
+          <div>
+            <img src={assets.profile_img} alt="" />
+            <p>2:30 AM</p>
+          </div>
+        </div>
+      </div>
+
       <div className="chat-input">
         <input type="text" placeholder="Sent a messge" />
         <input type="file" id="image" accept="image/png, img/jpeg " hidden />
